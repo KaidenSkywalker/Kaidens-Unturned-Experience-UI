@@ -1,0 +1,8 @@
+event onPlayerJoined(player){
+	player.effects.sendUI(73529, 73, player.experience)
+}
+
+event onPlayerExperienceUpdated(player){
+	player.effects.sendUI(73529, 73, player.experience)
+}
+
